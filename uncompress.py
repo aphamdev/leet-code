@@ -1,3 +1,14 @@
+# Write a function, uncompress, that takes in a string as an argument. The input string will be formatted into multiple groups
+# according to the following pattern:
+# <number><char>
+# for example, '2c' or '3a'
+
+# The function should return an uncompressed version of the string where each 'char' of a group is repeated 'number' times consecutively.
+# You may assume that the input string is well-formed according to the previously mentioned pattern.
+#
+# uncompress("2c3a1t") # -> 'ccaaat'
+
+
 def uncompress(s):
     # set numbers so we can check if j is a number
     numbers = "0123456789"
