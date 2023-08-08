@@ -1,5 +1,5 @@
 def compress(s):
-    # add a special character to the string
+    # add a special character to the string since prompt says s will be alphabetical
     s += "!"
     # initiate two pointer variables
     i = 0
