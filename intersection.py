@@ -12,9 +12,9 @@ def intersection(a, b):
 
 # slightly faster but using built in function
 
-# def intersection(a, b):
-#   set_a = set(a)
-#   return [ item for item in b if item in set_a ]
+def intersection(a, b):
+  set_a = set(a)
+  return [ item for item in b if item in set_a ]
 
 
 # brute force solution - may time out in edge case where both lists are same numbers from range(0-5000)
