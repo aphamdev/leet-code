@@ -32,4 +32,5 @@ def print_list_recursion(head):
     print(head.val)
     print_list_recursion(head.next)
 
-print_list_recursion(a)
+
+print_list_recursion(b)
