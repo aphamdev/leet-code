@@ -12,15 +12,13 @@ a.next = b
 b.next = c
 c.next = d 
 
+# iterative print list function
 
 # def print_list(head):
 #     current = head
 #     while current is not None:
 #         print(current.val)
 #         current = current.next
-
-
-
 
 
 #recursion
