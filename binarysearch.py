@@ -24,3 +24,4 @@ my_list = [1,3,5,7,10]
 
 print(binary_search(my_list, 3))
 print(binary_search(my_list, -1))
+
