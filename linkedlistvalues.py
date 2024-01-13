@@ -5,9 +5,13 @@ class Node:
 
 def linked_list_values(head):
   values = []
+  #set current to point at the head
   current = head
+  #while the current is not None
+  # add the value of current to the values list
   while current is not None:
     values.append(current.val) 
+    #move out current to the next node
     current = current.next
   return values
     
