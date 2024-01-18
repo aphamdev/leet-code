@@ -13,6 +13,11 @@ def linked_list_values(head):
     values.append(current.val) 
     #move out current to the next node
     current = current.next
+    ## educational note:
+        ## while loop indicates current variable therefore
+        ## we will use the current.next to show that we're pointing
+        ## to the next node. dont get confused with head.next
+        ## in this case, current.next IS essentially saying head.next
   return values
     
     
