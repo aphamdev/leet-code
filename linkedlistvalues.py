@@ -30,6 +30,6 @@ a.next = b
 b.next = c
 c.next = d
 
-# a -> b -> c -> d
+
 
 print(linked_list_values(a)) # -> [ 'a', 'b', 'c', 'd' ]
